@@ -11,7 +11,7 @@ import styles from './Button.module.css';
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'slim' | 'flat';
   active?: boolean;
-  width?: number;
+  width?: number | string;
   loading?: boolean;
   Component?: React.ComponentType;
 }
